@@ -1,6 +1,6 @@
 #!/usr/bin/python3
-ASCII_a = 97
-while ASCII_a < 123:
-    str1 = chr(ASCII_a)
+letter_in_ASCII = 97
+while letter_in_ASCII < 123:
+    str1 = chr(letter_in_ASCII)
     print("{}" .format(str1), end='')
-    ASCII_a += 1
+    letter_in_ASCII += 1
